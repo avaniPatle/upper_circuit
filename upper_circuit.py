@@ -4,6 +4,7 @@ from kiteconnect import KiteConnect
 import pandas as pd
 import time
 import os
+from dotenv import load_dotenv
 
 load_dotenv()
 EMAIL = os.getenv("SCREENER_EMAIL")
